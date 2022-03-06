@@ -4,7 +4,7 @@ fun main(){
     cities()
     num()
     var jina=name(arrayOf("phelisia","sarah","chumba"))
-    return(jina)
+    println(jina)
 }
 fun createfun (){
     var takestring= arrayOf("phelisai","Bakari","Chumba","Sarah")
@@ -28,9 +28,9 @@ var sum =numbers[1]+numbers[4]
     println(numbers.sortedArray().contentToString())
 
 }
-    fun name(strings:Array<String>){
-        var leta=strings
-        println(leta.contentToString())
+    fun name(strings:Array<String>):String{
+        var leta=strings.contentToString()
+        return leta
 
 
 
